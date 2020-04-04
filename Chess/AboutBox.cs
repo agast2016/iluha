@@ -13,6 +13,8 @@ namespace Chess
         {
             InitializeComponent();
             this.Text = String.Format("About {0} {0}", AssemblyTitle);
+
+            //Some Text Here
            
             this.textBoxDescription.Text = AssemblyDescription;
         }
